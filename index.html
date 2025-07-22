@@ -3,16 +3,84 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>JGGDeveloper – Web Application Developer</title>
+    <title>JGGDeveloper – Desarrollador de Aplicaciones Web</title>
     <link
         rel="stylesheet"
         href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
         crossorigin="anonymous"
     />
+    <meta name="description" content="Desarrollador web especializado en aplicaciones modernas, soluciones SaaS, WordPress y consultoría tecnológica. Con experiencia internacional y enfoque profesional.">
+    <meta property="og:title" content="JGGDeveloper – Desarrollador de Aplicaciones Web">
+    <meta property="og:description" content="Desarrollador web con experiencia en SaaS, WordPress, apps web y consultoría tecnológica.">
+    <meta property="og:image" content="https://jggdeveloper-indie.github.io/images/app-developer-about-me.webp">
+    <meta property="og:url" content="https://jggdeveloper-indie.github.io">
+    <meta property="og:type" content="website">
+    <meta name="theme-color" content="#0d6efd">
+    <link rel="apple-touch-icon" href="favicon.ico">
+    <link rel="canonical" href="https://jggdeveloper-indie.github.io/">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link rel="stylesheet" href="./css/style.css">
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@graph": [
+                {
+                "@type": "Person",
+                "name": "Juan G. Gutiérrez",
+                "url": "https://jggdeveloper-indie.github.io",
+                "image": "https://jggdeveloper-indie.github.io/images/me.jpg",
+                "sameAs": [
+                    "mailto:jggutierrez1989@gmail.com",
+                    "https://www.linkedin.com/in/juan-garcia-guti%C3%A9rrez-731308152/"
+                ],
+                "jobTitle": "Desarrollador Web",
+                "worksFor": {
+                    "@type": "Organization",
+                    "name": "JGGDeveloper"
+                }
+                },
+                {
+                "@type": "FAQPage",
+                "mainEntity": [
+                    {
+                    "@type": "Question",
+                    "name": "¿Qué tipo de proyectos desarrollas?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Desarrollo sitios web, aplicaciones web personalizadas, plataformas SaaS y plugins para WordPress. También ofrezco consultoría tecnológica."
+                    }
+                    },
+                    {
+                    "@type": "Question",
+                    "name": "¿Trabajas con clientes internacionales?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Sí, he trabajado con empresas de Italia, Israel y otros países. Estoy acostumbrado a colaborar de forma remota y profesional."
+                    }
+                    },
+                    {
+                    "@type": "Question",
+                    "name": "¿Qué tecnologías utilizas?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Trabajo con React, Node.js, Laravel, PHP, JavaScript, Python, MySQL, Tailwind CSS, WordPress, entre otras."
+                    }
+                    },
+                    {
+                    "@type": "Question",
+                    "name": "¿Cómo puedo contactarte para un proyecto?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Puedes enviarme un correo a jggutierrez1989@gmail.com o contactarme por LinkedIn."
+                    }
+                    }
+                ]
+                }
+            ]
+        }
+        </script>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -333,6 +401,80 @@
             </div>
         </div>
     </section>
+
+    <section id="faq" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-primary text-center mb-4">Preguntas Frecuentes (FAQ)</h2>
+            <div class="accordion" id="faqAccordion">
+
+            <!-- FAQ 1 -->
+            <div class="card mb-3">
+                <div class="card-header" id="faqHeading1">
+                <h5 class="mb-0">
+                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#faq1" aria-expanded="true" aria-controls="faq1">
+                    ¿Qué tipo de proyectos desarrollas?
+                    </button>
+                </h5>
+                </div>
+                <div id="faq1" class="collapse show" aria-labelledby="faqHeading1" data-parent="#faqAccordion">
+                <div class="card-body">
+                    Desarrollo sitios web, aplicaciones web personalizadas, plataformas SaaS y plugins para WordPress. También ofrezco consultoría tecnológica.
+                </div>
+                </div>
+            </div>
+
+            <!-- FAQ 2 -->
+            <div class="card mb-3">
+                <div class="card-header" id="faqHeading2">
+                <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#faq2" aria-expanded="false" aria-controls="faq2">
+                    ¿Trabajas con clientes internacionales?
+                    </button>
+                </h5>
+                </div>
+                <div id="faq2" class="collapse" aria-labelledby="faqHeading2" data-parent="#faqAccordion">
+                <div class="card-body">
+                    Sí, he trabajado con empresas de Italia, Israel y otros países. Estoy acostumbrado a colaborar de forma remota y profesional.
+                </div>
+                </div>
+            </div>
+
+            <!-- FAQ 3 -->
+            <div class="card mb-3">
+                <div class="card-header" id="faqHeading3">
+                <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#faq3" aria-expanded="false" aria-controls="faq3">
+                    ¿Qué tecnologías utilizas?
+                    </button>
+                </h5>
+                </div>
+                <div id="faq3" class="collapse" aria-labelledby="faqHeading3" data-parent="#faqAccordion">
+                <div class="card-body">
+                    Trabajo con React, Node.js, Laravel, PHP, JavaScript, Python, MySQL, Tailwind CSS, WordPress, entre otras.
+                </div>
+                </div>
+            </div>
+
+            <!-- FAQ 4 -->
+            <div class="card mb-3">
+                <div class="card-header" id="faqHeading4">
+                <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#faq4" aria-expanded="false" aria-controls="faq4">
+                    ¿Cómo puedo contactarte para un proyecto?
+                    </button>
+                </h5>
+                </div>
+                <div id="faq4" class="collapse" aria-labelledby="faqHeading4" data-parent="#faqAccordion">
+                <div class="card-body">
+                    Puedes enviarme un correo a <a href="mailto:jggutierrez1989@gmail.com">jggutierrez1989@gmail.com</a> o contactarme por <a href="https://www.linkedin.com/in/juan-garcia-guti%C3%A9rrez-731308152/">LinkedIn</a>.
+                </div>
+                </div>
+            </div>
+
+            </div>
+        </div>
+        </section>
+
 
     <footer class="bg-dark text-white py-4 mt-5">
         <div class="container">
