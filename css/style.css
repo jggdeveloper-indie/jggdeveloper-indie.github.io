@@ -45,9 +45,11 @@ h3 {
     margin-top: 30px;
     width: 75%;
     height: 85%;
+    border-radius: 360px; 
+    object-fit: cover;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1300px) {
     .vh-100 {
         padding-top: 4rem;
         padding-bottom: 4rem;
@@ -69,4 +71,13 @@ h3 {
     #jggdeveloper-photo {
         margin-top: 5% !important;
     }
+
+    #jggdeveloper-photo img {
+        margin-top: 30px;
+        width: auto;
+        height: 35%;
+        border-radius: 360px; 
+        object-fit: cover;
+    }
+
 }
